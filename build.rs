@@ -278,6 +278,7 @@ const ASM_TARGETS: &[(&str, Option<&str>, &str)] = &[
     (ARM, Some("ios"), "ios32"),
     (ARM, None, "linux32"),
     (PPC, Some("linux"), "linux32"),
+    (PPC, Some("netbsd"), "elf"),
     (PPC64, Some("linux"), "linux64"),
 ];
 
